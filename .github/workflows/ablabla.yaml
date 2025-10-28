@@ -1,7 +1,7 @@
 #chaves e valores valores minimos obrigatorio74
-ON: PUSH
-JOBS:
+on: push
+jobs:
   meu_primeiro_job: # Esta é a unica chave que você inventa
-    runs_on: ubuntu_latest # ubuntu-24.4, windows-latest, windows-2022, Xcode 10s macOS Swift macos-latest macos-14  
+    runs-on: ubuntu_latest # ubuntu-24.4, windows-latest, windows-2022, Xcode 10s macOS Swift macos-latest macos-14  
     steps:
       - run: echo "Olá/Fatec!"
